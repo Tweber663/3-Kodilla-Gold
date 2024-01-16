@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    margin: 70px 20%;
+    margin: 70px 10%;
 }
 
 .flex-1 {
@@ -30,7 +30,34 @@ body {
     flex: 6;
 }
 
-//--------------------- Nav 
+.large-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1;
+}
+
+.under-title {
+    font-size: 20px;
+    font-family: 'Cardo', serif;
+    color: rgb(97, 97, 97);
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1;
+}
+
+//--------------------------------------- Nav 
 nav {
     padding: 0 10%;
     position: relative;
@@ -79,7 +106,7 @@ nav a {
     letter-spacing: 1;
 }
 
-//--------------------- Splash
+//----------------------------------------- Splash
 .splash-main-flex {
     display: flex;
     position: relative;
@@ -132,4 +159,36 @@ nav a {
    background-color: gold; 
    font-weight: bolder;
    border-radius: 2px;
+}
+
+//----------------------------------------- Servcies
+.main-flex-servcies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-box {
+    text-align: center;
+}
+
+.middle-box {
+    margin: 0 20px;
+}
+
+.services i {
+    color: gold;
+    font-size: 35px;
+    padding: 15px;
+    border-radius: 100px;
+    border: 3px solid gold;
+    margin-bottom: 20px;
+}
+
+.services-title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.main-flex-servcies p {
+    color: rgb(97, 97, 97);
 }
