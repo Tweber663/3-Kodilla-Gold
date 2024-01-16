@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    margin: 70px 10%;
+    margin: 70px 15%;
 }
 
 .flex-1 {
@@ -40,7 +40,7 @@ nav {
 }
 
 .nav-flex-main {
-    width: 90%;
+    width: 80%;
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -48,6 +48,11 @@ nav {
 
 .nav-flex-logo {
     display: flex;
+    font-size: 23px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: gold;
 }
 
 .nav-flex-menu {
@@ -66,6 +71,14 @@ nav ul {
     padding: 0;
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1;
+}
+
 //--------------------- Splash
 .splash-main-flex {
     display: flex;
@@ -79,7 +92,7 @@ nav ul {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     right: 0;
