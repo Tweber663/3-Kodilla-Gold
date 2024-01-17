@@ -340,6 +340,8 @@ footer i {
         margin-left: 10px;
      }
 
+     //------------------------------ Footer
+
      .footer-ul-2 li {
         padding: 1px;
      }
@@ -347,7 +349,29 @@ footer i {
      .footer-ul-1 li {
         padding: 1px;
      }
+}
+
+//! --------------------- Responsive mobile 
+
+@media (min-width: 576px) and (max-width: 1000px) {
+
+    //----------------------------- nav-bar
 
 
+    .nav-flex-menu {
+        flex: 3;
+    }
+
+    .nav-flex-main {
+        width: 90%;
+    }
+
+    .li-off {
+        display: none;
+    }
+
+    nav li {
+        padding-left: 10px;
+    }
 
 }
