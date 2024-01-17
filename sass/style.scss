@@ -269,3 +269,18 @@ footer i {
     display: flex;
     align-items: center;
 }
+
+
+//** --------------------- Responsive mobile 
+
+@media (max-width: 576px) {
+    nav li {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    nav ul {
+        padding-top: 10px;
+    }
+
+}
