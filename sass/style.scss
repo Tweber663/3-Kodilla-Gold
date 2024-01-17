@@ -258,6 +258,17 @@ footer li {
 
 footer ul {
     text-align: center;
+    padding: 0;
+}
+
+.footer-ul-1 {
+    text-align: end;
+    padding-right: 2px;
+}
+
+.footer-ul-2 {
+    text-align: start;
+    padding-left: 2px;
 }
 
 footer i {
@@ -266,7 +277,6 @@ footer i {
     border-radius: 100px;
     color: white;
     background-color: black;
-    margin-right: 10px;
 }
 
 .footer-flex-main {
