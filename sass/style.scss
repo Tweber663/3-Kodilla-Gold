@@ -242,3 +242,30 @@ nav a {
     padding-bottom: 20px;
     padding-top: 50px;
 }
+
+//----------------------------------------- Footer 
+footer {
+    padding: 0 10%;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer i {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.footer-flex-main {
+    display: flex;
+    align-items: center;
+}
